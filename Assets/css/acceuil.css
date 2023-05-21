@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+  font-family: 'Panthera';
+  src:url(/Assets/typo/panthera.otf)
+}
+@font-face {
+  font-family:'BEYNO';
+  src:url(/Assets/typo/BEYNO.otf)
+}
+@font-face {
+  font-family:'BEYNO';
+  src:url(/Assets/typo/BEYNO.ttf)
+}
+@font-face {
+  font-family:'Wakanda 4 Ever';
+  src:url(/Assets/typo/Wakanda4Ever-gxg5p.ttf)
+}
+
+:root {
+  --white-color: #FFFFFF;
+  --color-one: #F2CEF2;
+  --color-two: #9E91B7;
+  --color-three: #DF99F2;
+  --blue-color-1: #3D2DA6;
+  --blue-color-2: #07338C;
+  --blue-color-3: #021740;
+}
+
+h1 {
+  font-family: 'BEYNO';
+  font-size: 36px;
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-family: 'BEYNO';
+  font-size: 18px;
+  color: var(--color-two);
+  font-weight: 300;
+}
+
+p {
+  font-family: 'Cantarell';
+  font-size: 10px;
+  color: var(--white-color);
+}
+
+span {
+  font-family: 'Cantarell';
+  font-size: 10px;
+  color: var(--white-color);
+}
+
+html {
+  font-family: 'Cantarell', sans-serif; 
+  background-image: url(../All-pages/arrière_plan.png);
+}
+
+.sayna-marvel {
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 119px;
+}
+
+.sayna {
+  width: 22px;
+  cursor: pointer;
+}
+.x-icon {
+  width: 10px;
+  padding-bottom: 5px;
+}
+
+.marvel {
+  width: 60px;
+  cursor: pointer;
+}
+
+.vertical-line {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 8px;
+}
+
+.t {
+  margin-top: 0;
+  margin-left: 35px;
+  border-left: 3px solid var(--color-two);
+  height: 380px;
+}
+.l {
+  margin-top: 0;
+  margin-left: 15px;
+  border-left: 3px solid var(--color-two);
+  height: 250px;
+}
+
+.social-media-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 18px;
+  margin: 44px;
+  position: relative;
+  top: 214px;
+  left: 9px;
+  cursor: pointer;
+}
+
+.social-media-icon img{
+  margin-bottom: 17px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  position: absolute;
+  top: 30px;
+  right: 100px;
+}
+
+.nav ul {
+  display: flex;
+
+}
+.nav ul li {
+  font-family: 'BEYNO';
+  font-size: 14px;
+  color: white;
+  margin-right: 40px;
+  text-decoration: none;
+  list-style: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.nav ul li:hover {
+  text-decoration: underline;
+  color: var(--color-two);
+  transition: 0.15s;
+}
+
+/* main design */
+.panther-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panthera-title {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 230px;
+  left: 160px;
+}
+
+.panthera-title h1 {
+  font-family:'Panthera';
+  font-weight: 400;
+  font-size: 50px;
+  color: var(--color-two);
+  margin-bottom: 8px;
+  
+}
+.panther img {
+  width: 800px;
+  position: absolute;
+  top: 60px;
+  right:40px ;
+}
+
+.panthera-title h2 {
+  font-family: 'BEYNO';
+  font-size: 24px;
+  color: var(--color-two);
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.panthera-title p {
+  width: 350px;
+  font-size: 10px;
+  color: var(--white-color);
+  font-family: 'Cantarell';
+  font-weight: 200;
+  line-height: 15px;
+  margin-bottom: 10px;
+}
+
+.panthera-title span {
+  font-size: 10px;
+  color: var(--white-color);
+  font-family: 'Cantarell';
+  font-weight: 200;
+  line-height: 15px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*.container {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  position: relative;
+  margin-right: 0px;
+  margin-top: 200px;
+}*/
+
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.container-home {
+  display: grid;
+  grid-template-columns: 330px 280px 208px 250px 153px;
+  align-items:start;
+  justify-content: center;
+  float: right;
+  margin-top: 350px;
+  background-color: var(--blue-color-3);
+  padding: 0px;
+  height: 240px;
+  position: relative;
+  left: 0;
+}
+
+.panthera-img {
+  height: 60px;
+}
+
+.panthera-img img{
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 30px;
+  width: 300px;
+}
+
+.panther-home3 img{
+  height: 240px;
+}
+
+.panther-home4 img {
+  height: 240px;
+}
+
+.personage-name {
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.para-texte {
+  padding: 0 20px;
+}
+
+.voir-plus {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.greater-than {
+  position: absolute;
+  right: 20px;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Wakanda 4 Ever';
+  background-color: #021740;
+  border-radius: 20px;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  bottom: 40px;
+  top: 100px;
+  padding-top: 5px;
+  cursor: pointer;
+}
