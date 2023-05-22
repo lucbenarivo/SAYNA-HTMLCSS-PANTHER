@@ -285,3 +285,213 @@ html {
   padding-top: 5px;
   cursor: pointer;
 }
+
+/* Design de la partie Wakanda story */
+
+.wakanda-story {
+  margin-top: 750px;
+  display: flex;  
+  justify-content: center;
+  margin-left: 75px;
+}
+
+.wakanda-bio {
+  width: 60%;
+  margin-right: 100px;
+}
+
+.wakanda-description h2{
+  font-family: 'BEYNO';
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+.wakanda-description p{
+  line-height: 16px;
+  text-align: justify;
+  padding-bottom: 10px;
+}
+
+.wakanda-description span{
+  display: block;
+  line-height: 16px;
+  text-align: justify;
+}
+#profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.personage-profile {
+  background-color: #f7f3f7;
+  border-radius: 10px;
+  padding-top: 200px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 70px;
+  margin-top: 200px;
+  width: 90%;
+}
+.personage-profile h2{
+  font-family: 'Cantarell';
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.personage-profile p{
+  font-family: 'Cantarell';
+  font-size: 10px;
+  color: black;
+  line-height: 22px;
+}
+.personage-profile span{
+  font-family: 'Cantarell';
+  font-size: 12;
+  color: black;
+  font-weight: 700;
+}
+.button-bp {
+  background-color: var(--blue-color-1);
+  border: none;
+  width: 80px;
+  height: 30px;
+  color: var(--white-color);
+  font-size: 10px;
+  font-family: 'Cantarell';
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button-Roi {
+  background-color: var(--blue-color-1);
+  border: none;
+  width: 90px;
+  height: 30px;
+  color: var(--white-color);
+  font-size: 10px;
+  font-family: 'Cantarell';
+  border-radius: 4px;
+  margin-left: 6px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+.button-En-vie {
+  background-color: var(--blue-color-1);
+  border: none;
+  width: 50px;
+  height: 30px;
+  color: var(--white-color);
+  font-size: 10px;
+  font-family: 'Cantarell';
+  border-radius: 4px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+#profile .personage-picture img{
+  height: 300px;
+  margin-top: 60px;
+
+}
+
+#profile .profile-picture img{
+  width: 280px;
+  position: absolute;
+  right: 197px;
+}
+
+/* Design la partie contact-us*/
+#contact-us .formulaire {
+  background-image: url(../Accueil/Pantherhome7.png);
+  background-size:cover;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  height: 650px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+#contact-us .formulaire .details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 150px;
+  background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.219));
+  padding: 30px 140px;
+  border-radius: 100px;
+  height: 500px;
+}
+
+.details h2 {
+  text-align: center;
+  font-family: 'Cantarell';
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 10px;
+}
+.details h1 {
+  text-align: center;
+  font-family: 'Cantarell';
+  font-size: 36px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 20px;
+}
+.details input[type="name"] {
+  background: none;
+  border: 1px solid var(--blue-color-3);
+  height: 40px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  font-family: 'Cantarell';
+  font-size: 12px;
+}
+.details input[type="email"] {
+  background: none;
+  border: 1px solid var(--blue-color-3);
+  height: 40px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  font-family: 'Cantarell';
+  font-size: 12px;
+}
+.details textarea[name="message"] {
+  background: none;
+  border: 1px solid var(--blue-color-3);
+  height: 150px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  font-family: 'Cantarell';
+  font-size: 12px;
+}
+
+.details button {
+  display: block;
+  margin: 0 auto;
+  width: 120px;
+  height: 40px;
+  border: none;
+  background-color: var(--color-one);
+  border-radius: 20px;
+  font-family: 'Cantarell';
+  font-size: 10px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+/* Design de la partie footer*/
+
+.footer {
+  background-image: url(../All-pages/back_footer.png);
+  margin-top: 100px;
+}
