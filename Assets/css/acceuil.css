@@ -203,19 +203,12 @@ html {
   font-family: 'Cantarell';
   font-weight: 200;
   line-height: 15px;
-  text-decoration: underline;
   cursor: pointer;
 }
 
-/*.container {
-  display: flex;
-  align-items: center;
-  width: 80%;
-  position: relative;
-  margin-right: 0px;
-  margin-top: 200px;
-}*/
-
+.panthera-title span:hover {
+  text-decoration: underline;
+}
 .container {
   display: block;
   margin: 0 auto;
@@ -268,6 +261,9 @@ html {
   margin-left: 20px;
   cursor: pointer;
 }
+.voir-plus:hover {
+  text-decoration: underline;
+}
 
 .greater-than {
   position: absolute;
@@ -285,7 +281,10 @@ html {
   padding-top: 5px;
   cursor: pointer;
 }
-
+.greater-than:hover {
+  box-shadow: 0 0 10px #021740;
+  transition: 0.15s;
+}
 /* Design de la partie Wakanda story */
 
 .wakanda-story {
@@ -366,6 +365,11 @@ html {
   border-radius: 4px;
   cursor: pointer;
 }
+.button-bp:hover {
+  box-shadow: 0 0 6px #3D2DA6;
+  transition: 0.15s;
+}
+
 .button-Roi {
   background-color: var(--blue-color-1);
   border: none;
@@ -379,6 +383,11 @@ html {
   margin-right: 6px;
   cursor: pointer;
 }
+
+.button-Roi:hover {
+  box-shadow: 0 0 6px #3D2DA6;
+  transition: 0.15s;
+}
 .button-En-vie {
   background-color: var(--blue-color-1);
   border: none;
@@ -390,6 +399,10 @@ html {
   border-radius: 4px;
   margin-bottom: 20px;
   cursor: pointer;
+}
+.button-En-vie:hover {
+  box-shadow: 0 0 6px #3D2DA6;
+  transition: 0.15s;
 }
 #profile .personage-picture img{
   height: 300px;
@@ -487,11 +500,84 @@ html {
   font-size: 10px;
   font-weight: 700;
   margin-top: 10px;
+  cursor: pointer;
+}
+
+.details button:hover {
+  box-shadow: 0 0 20px #F2CEF2;
+  transition: 0.15s;
+}
+
+.details button:active {
+  box-shadow: 0 0 20px  #021740;
+  transition: 0.15s;
 }
 
 /* Design de la partie footer*/
 
 .footer {
   background-image: url(../All-pages/back_footer.png);
-  margin-top: 100px;
+  background-size: cover;
+  margin-top: 80px;  
+
+}
+
+.a-propos {
+  display: flex;
+  flex-direction: row;
+  justify-content:baseline;
+  margin-top: 150px;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  flex: 3;
+  margin-right: 40px;
+}
+
+.logo-sm .fsm-1 {
+  display: block;
+  position: relative;
+  left: 342px;
+  top: 280px;
+  height: 30px;
+}
+
+.logo-sm .fsm-2 {
+  height: 300px;
+  margin-top: 120px;
+  margin-left: 280px;
+  margin-bottom: 50px;
+}
+
+.link-list h2{
+  font-family: 'Cantarell';
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--white-color);
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.link-list a{
+  display: block;
+  text-decoration: none;
+  align-items: center;
+  color: var(--white-color);
+  font-size: 12px;
+  font-family: 'Cantarell';
+  line-height:30px;
+  cursor: pointer;
+}
+
+.link-list {
+  margin-right: 150px;
+  margin-bottom: 100px;
+}
+.link-list img{
+  width: 35px;
+  margin-right: 28px;
+  cursor: pointer;
 }
