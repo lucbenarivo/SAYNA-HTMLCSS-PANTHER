@@ -148,6 +148,10 @@ html {
   color: var(--color-two);
   transition: 0.15s;
 }
+.nav ul .acceuil {
+  color: var(--color-two);
+  text-decoration: underline;
+}
 
 /* main design */
 .panther-home {
