@@ -3,17 +3,14 @@
   font-family: 'Panthera';
   src:url(/Assets/typo/panthera.otf)
 }
-@font-face {
-  font-family:'BEYNO';
-  src:url(/Assets/typo/BEYNO.otf)
-}
+
 @font-face {
   font-family:'BEYNO';
   src:url(/Assets/typo/BEYNO.ttf)
 }
 @font-face {
-  font-family:'Wakanda 4 Ever';
-  src:url(/Assets/typo/Wakanda4Ever-gxg5p.ttf)
+  font-family:'WakandaForever';
+  src:url(/Assets/typo/WakandaForever-Regular.ttf)
 }
 
 :root {
@@ -58,7 +55,7 @@ span {
 }
 
 html {
-  font-family: 'Cantarell', sans-serif; 
+  font-family: 'Cantarell'; 
   background-image: url(../All-pages/arrière_plan.png);
 }
 
@@ -82,6 +79,7 @@ html {
   width: 60px;
   cursor: pointer;
 }
+
 
 .vertical-line {
   display: flex;
@@ -114,11 +112,26 @@ html {
   left: 9px;
   cursor: pointer;
 }
-
 .social-media-icon img{
   margin-bottom: 17px;
 }
 
+.facebook-icon:hover {
+  filter: brightness(200%); 
+  transition: 0.15s;
+}
+ .instagram-icon:hover {
+  filter: brightness(200%); 
+  transition: 0.15s;
+}
+.twitter-icon:hover {
+  filter: brightness(200%); 
+  transition: 0.15s;
+}
+.tiktok-icon:hover {
+  filter: brightness(200%);
+  transition: 0.15s;
+}
 .nav {
   display: flex;
   justify-content: center;
@@ -142,16 +155,20 @@ html {
   text-transform: uppercase;
   cursor: pointer;
 }
-
+.nav ul .acceuil {
+  color: var(--white-color);
+}
 .nav ul li:hover {
+  text-decoration: underline;
+  color: var(--white-color);
+  transition: 0.15s;
+}
+.nav ul li:active {
   text-decoration: underline;
   color: var(--color-two);
   transition: 0.15s;
 }
-.nav ul .acceuil {
-  color: var(--color-two);
-  text-decoration: underline;
-}
+
 
 /* main design */
 .panther-home {
@@ -324,15 +341,14 @@ html {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-
 }
 
 .personage-profile {
   background-color: #f7f3f7;
   border-radius: 10px;
   padding-top: 200px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 35px;
+  padding-right: 35px;
   padding-bottom: 70px;
   margin-top: 200px;
   width: 90%;
@@ -417,7 +433,7 @@ html {
 #profile .profile-picture img{
   width: 280px;
   position: absolute;
-  right: 197px;
+  right: 196px;
 }
 
 /* Design la partie contact-us*/
@@ -429,7 +445,6 @@ html {
   height: 650px;
   display: flex;
   flex-direction: row;
-
 }
 
 #contact-us .formulaire .details{
@@ -453,9 +468,8 @@ html {
   color: black;
   margin-bottom: 10px;
 }
-.details h1 {
+.details p{
   text-align: center;
-  font-family: 'Cantarell';
   font-size: 36px;
   font-weight: 700;
   color: black;
@@ -500,10 +514,10 @@ html {
   border: none;
   background-color: var(--color-one);
   border-radius: 20px;
-  font-family: 'Cantarell';
   font-size: 10px;
   font-weight: 700;
   margin-top: 10px;
+  letter-spacing: 1px;
   cursor: pointer;
 }
 
@@ -555,18 +569,26 @@ html {
   margin-bottom: 50px;
 }
 
-.link-list h2{
-  font-family: 'Cantarell';
+.logo-sm:hover .fsm-2 {
+  height: 305px;
+  transition: 0.15s;
+}
+.logo-sm:hover .fsm-1 {
+  height: 31px;
+  transition: 0.15s;
+}
+
+.link-list h3{
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 600;
   color: var(--white-color);
-  letter-spacing: 1px;
+  letter-spacing: 0.6px;
   margin-bottom: 30px;
 }
 
 .link-list a{
-  display: block;
+  display: inline-block;
   text-decoration: none;
   align-items: center;
   color: var(--white-color);
@@ -574,6 +596,10 @@ html {
   font-family: 'Cantarell';
   line-height:30px;
   cursor: pointer;
+}
+
+.link-list .a-link {
+  display: block;
 }
 
 .link-list {
@@ -584,4 +610,24 @@ html {
   width: 35px;
   margin-right: 28px;
   cursor: pointer;
+}
+.facebook:hover {
+  filter: brightness(115%);
+  transition: 0.15s;
+}
+.instagram:hover {
+  filter: brightness(115%);
+  transition: 0.15s;
+}
+.twitter:hover {
+  filter: brightness(115%);
+  transition: 0.15s;
+}
+.tiktok:hover {
+  filter: brightness(115%);
+  transition: 0.15s;
+}
+.copyright p {
+  color: var(--white-color);
+  font-size: 12px;
 }
