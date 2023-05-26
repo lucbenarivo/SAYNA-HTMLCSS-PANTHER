@@ -70,6 +70,10 @@ html {
   width: 22px;
   cursor: pointer;
 }
+
+.sayna:hover {
+  filter:hsl(300, 76%, 72%);
+}
 .x-icon {
   width: 10px;
   padding-bottom: 5px;
@@ -105,15 +109,16 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 18px;
+  width: 16px;
   margin: 44px;
   position: relative;
   top: 214px;
   left: 9px;
   cursor: pointer;
 }
-.social-media-icon img{
-  margin-bottom: 17px;
+.social-media-icon a img{
+  margin-bottom: 11.5px;
+  width: 18px;
 }
 
 .facebook-icon:hover {
@@ -225,9 +230,6 @@ html {
   font-weight: 200;
   line-height: 15px;
   cursor: pointer;
-}
-
-.panthera-title span:hover {
   text-decoration: underline;
 }
 .container {
@@ -281,8 +283,6 @@ html {
 .voir-plus {
   margin-left: 20px;
   cursor: pointer;
-}
-.voir-plus:hover {
   text-decoration: underline;
 }
 
@@ -458,6 +458,8 @@ html {
   padding: 30px 140px;
   border-radius: 100px;
   height: 500px;
+  position: relative;
+  bottom: 50px;
 }
 
 .details h2 {
@@ -630,4 +632,7 @@ html {
 .copyright p {
   color: var(--white-color);
   font-size: 12px;
+}
+.strong-dot {
+  font-weight: bold;
 }
